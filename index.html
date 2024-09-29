@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" href="https://flagcdn.com/pk.svg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+  <title>Find your State!</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row my-5 d-flex justify-content-around d-flex align-items-center">
+    <div class="col-3">
+      <h1>Yours truly, State!</h1>
+    </div>
+    <div class="col-5">
+        <div class="form-floating mb-3">
+  <input type="text" class="form-control" id="search" placeholder="Search your Country">
+  <label for="floatingInput">Search here...</label>
+</div>
+    </div>
+    </div>
+    <div class="countries d-flex gap-5 flex-wrap justify-content-center">
+    <!-- Countries goes here form REST API -->
+    </div>
+  </div>
+  </div>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
